@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Spiffy.Plugins.Popup</id>
+        <version>$version$</version>
+        <title>Popup Page Plugin for Xamarin Forms</title>
+        <authors>Get Spiffy</authors>
+        <owners>Get Spiffy</owners>
+        <projectUrl>https://github.com/get-spiffy/Spiffy.Plugins.Popup</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/get-spiffy/Spiffy.Plugins.Popup/master/icons/icon.png</iconUrl>
+        <licenseUrl>https://github.com/get-spiffy/Spiffy.Plugins.Popup/blob/master/LICENSE.md</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Plugin to create a Modal Popup View
+        
+        Release Notes: https://github.com/get-spiffy/Spiffy.Plugins.Popup/releases</description>
+        <tags>Xamarin.Forms xamarin forms popup page modal</tags>
+        <dependencies>
+            <dependency id="Xamarin.Forms" version="3.1.0.583944" />
+        </dependencies>
+    </metadata>
+    <files>
+      <!--PCL-->
+      <file src="..\src\Spiffy.Plugins.Popup\bin\Release\netstandard1.0\Spiffy.Plugins.Popup.dll" target="lib\netstandard1.0" />
+      <file src="..\src\Spiffy.Plugins.Popup\bin\Release\netstandard1.0\Spiffy.Plugins.Popup.pdb" target="lib\netstandard1.0" />
+      <!--Android-->
+      <file src="..\src\Spiffy.Plugins.Popup.Droid\bin\Release\Spiffy.Plugins.Popup.dll" target="lib\MonoAndroid" />
+      <file src="..\src\Spiffy.Plugins.Popup.Droid\bin\Release\Spiffy.Plugins.Popup.pdb" target="lib\MonoAndroid" />
+      <file src="..\src\Spiffy.Plugins.Popup.Droid\bin\Release\Spiffy.Plugins.Popup.Droid.dll" target="lib\MonoAndroid" />
+      <file src="..\src\Spiffy.Plugins.Popup.Droid\bin\Release\Spiffy.Plugins.Popup.Droid.pdb" target="lib\MonoAndroid" />
+      <!--IOS-->
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.dll" target="lib\MonoTouch" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.pdb" target="lib\MonoTouch" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.dll" target="lib\Xamarin.IOS" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.pdb" target="lib\Xamarin.IOS" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.IOS.dll" target="lib\MonoTouch" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.IOS.pdb" target="lib\MonoTouch" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.IOS.dll" target="lib\Xamarin.IOS" />
+      <file src="..\src\Spiffy.Plugins.Popup.IOS\bin\Release\Spiffy.Plugins.Popup.IOS.pdb" target="lib\Xamarin.IOS" />
+      <!--wpa81-->
+      <!--<file src="..\src\Spiffy.Plugins.Popup\bin\Release\Spiffy.Plugins.Popup.dll" target="lib\wpa81" />
+      <file src="..\src\Spiffy.Plugins.Popup.WinPhone\bin\Release\Spiffy.Plugins.Popup.WinPhone.dll" target="lib\wpa81" />-->
+      <!--uwp-->
+      <!--<file src="..\src\Spiffy.Plugins.Popup.UWP\bin\Release\Spiffy.Plugins.Popup.dll" target="lib\uap10.0" />
+      <file src="..\src\Spiffy.Plugins.Popup.UWP\bin\Release\Spiffy.Plugins.Popup.pdb" target="lib\uap10.0" />
+      <file src="..\src\Spiffy.Plugins.Popup.UWP\bin\Release\Spiffy.Plugins.Popup.UWP.dll" target="lib\uap10.0" />
+      <file src="..\src\Spiffy.Plugins.Popup.UWP\bin\Release\Spiffy.Plugins.Popup.UWP.pdb" target="lib\uap10.0" />-->
+    </files>
+</package>

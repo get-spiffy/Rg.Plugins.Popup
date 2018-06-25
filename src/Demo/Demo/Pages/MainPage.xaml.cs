@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Rg.Plugins.Popup.Extensions;
+using Spiffy.Plugins.Popup.Extensions;
 using Xamarin.Forms;
 
 namespace Demo.Pages

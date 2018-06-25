@@ -12,14 +12,14 @@ namespace Demo.Droid
         {
             base.OnCreate(bundle);
 
-            Rg.Plugins.Popup.Popup.Init(this, bundle);
+            Spiffy.Plugins.Popup.Popup.Init(this, bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
 
         public override void OnBackPressed()
         {
-            if (Rg.Plugins.Popup.Popup.SendBackPressed(base.OnBackPressed))
+            if (Spiffy.Plugins.Popup.Popup.SendBackPressed(base.OnBackPressed))
             {
                 Debug.WriteLine("Android back button: There are some pages in the PopupStack");
             }

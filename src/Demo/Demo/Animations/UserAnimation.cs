@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Rg.Plugins.Popup.Animations;
-using Rg.Plugins.Popup.Animations.Base;
-using Rg.Plugins.Popup.Interfaces.Animations;
-using Rg.Plugins.Popup.Pages;
+using Spiffy.Plugins.Popup.Animations;
+using Spiffy.Plugins.Popup.Animations.Base;
+using Spiffy.Plugins.Popup.Interfaces.Animations;
+using Spiffy.Plugins.Popup.Pages;
 using Xamarin.Forms;
 
 namespace Demo.Animations

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Rg.Plugins.Popup.Pages;
-using Rg.Plugins.Popup.Services;
+using Spiffy.Plugins.Popup.Pages;
+using Spiffy.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace Demo.Pages
